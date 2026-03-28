@@ -86,6 +86,3 @@ Understanding sorting strategies (chunk algorithm, indexing)
 Debugging specific issues (segmentation faults, logic errors)
 Structuring the project and improving code readability
 Writing and refining this README
-
-## Author
-younesse25

@@ -6,7 +6,7 @@
 /*   By: yhaouas <yhaouas@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/28 10:05:49 by yhaouas           #+#    #+#             */
-/*   Updated: 2026/03/28 10:18:19 by yhaouas          ###   ########.fr       */
+/*   Updated: 2026/03/28 16:34:03 by yhaouas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,7 +90,7 @@ static int	stack_creating(t_list **stack_a, char **argv)
 		lst = lst_new(ft_atoi(argv[i]), -1);
 		if (!lst)
 		{
-			return (0);	
+			return (0);
 		}
 		lst_add_back(stack_a, lst);
 		i++;
