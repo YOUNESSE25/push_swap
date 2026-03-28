@@ -41,14 +41,14 @@ The program outputs a sequence of operations that sorts the stack.
 
 The allowed operations are:
 
-sa : swap the first 2 elements of stack A
-sb : swap the first 2 elements of stack B
-pa : push top element from B to A
-pb : push top element from A to B
-ra : rotate stack A (first element becomes last)
-rb : rotate stack B
-rra : reverse rotate A
-rrb : reverse rotate B
+sa : swap the first 2 elements of stack A/
+sb : swap the first 2 elements of stack B/
+pa : push top element from B to A/
+pb : push top element from A to B/
+ra : rotate stack A (first element becomes last)/
+rb : rotate stack B/
+rra : reverse rotate A/
+rrb : reverse rotate B/
 
 Features
 Handles multiple input formats (quoted or separate arguments)
