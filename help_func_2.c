@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   help_func_3.c                                      :+:      :+:    :+:   */
+/*   help_func_2.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yhaouas <yhaouas@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/27 19:20:55 by yhaouas           #+#    #+#             */
-/*   Updated: 2026/03/28 09:34:27 by yhaouas          ###   ########.fr       */
+/*   Updated: 2026/03/29 15:02:29 by yhaouas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,12 +28,13 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	pointer = (char *)malloc(len_s2 + len_s1 + 1);
 	pointer_to_return = pointer;
 	if (!pointer)
-		return (NULL);
+		return (free((void *)s1), NULL);
 	while (s1 != NULL && *s1)
 		*pointer++ = *s1++;
 	while (s2 != NULL && *s2)
 		*pointer++ = *s2++;
 	*pointer = '\0';
+	free((void *)s1 - len_s1);
 	return (pointer_to_return);
 }
 

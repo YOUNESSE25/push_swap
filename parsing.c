@@ -6,11 +6,13 @@
 /*   By: yhaouas <yhaouas@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/28 10:05:49 by yhaouas           #+#    #+#             */
-/*   Updated: 2026/03/28 16:34:03 by yhaouas          ###   ########.fr       */
+/*   Updated: 2026/03/29 14:50:51 by yhaouas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
+#include <string.h>
+#include <stdio.h>
 
 int	digit_check(char **argv)
 {
